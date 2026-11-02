@@ -1,0 +1,35 @@
+{
+  "name": "coderhouse-nlp-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/check-core.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "lucide-react": "^0.468.0",
+    "recharts": "^3.10.1",
+    "papaparse": "^5.5.3",
+    "read-excel-file": "^9.3.14",
+    "snowball-stemmers": "0.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0",
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/papaparse": "^5.3.16",
+    "@types/snowball-stemmers": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
